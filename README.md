@@ -29,6 +29,7 @@ Tutorial for learning how to use GitHub and co-work with other developers
 #### Summary : AI가 일자리를 대체할 것인가? 에 대해서 알트만은 이것이 가까운 장래에 일부 일자리를 대체할 가능성이 있으며 얼마나 빨리 일어날 수 있는지 걱정하고 있다고 밝혔다.
 
 ![오픈AI CEO 샘 알트만(사진:ABC방송 캡처)](https://cdn.aitimes.kr/news/photo/202303/27595_41566_124.jpg)
+
 <br>
 
 대화형 생성 인공지능(Generative AI) 챗GPT(ChatGPT)의 오픈AI CEO 샘 알트만(Sam Altman)는 인공지능 기술이 우리가 알고 있는 사회를 재구성할 것이라며, 실제 위험이 따르지만 우리의 삶을 획기적으로 개선하기 위해 "인류가 지금까지 개발한 가장 위대한 기술"이 될 수도 있다고 믿는다고 17일(현지시간) ABC방송 인터뷰를 통해 밝혔다.
