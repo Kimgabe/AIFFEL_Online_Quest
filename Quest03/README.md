@@ -22,7 +22,7 @@
     - 주석을 보고 코드 이해가 잘 되었는지 확인
         - 잘 작성되었다고 생각되는 부분을 근거로 첨부합니다.
           
-```python     
+```python
    for line in txt_file:
     clean_line = re.sub(r"[^\uAC00-\uD7A30-9a-zA-Z\s]", "",line) #특수기호 제거
     txt_data = clean_line.lower() #모든 문자를 소문자로 변환
