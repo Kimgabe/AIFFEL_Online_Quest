@@ -9,7 +9,7 @@
     - 문제를 해결하는 완성된 코드란 프로젝트 루브릭 3개 중 2개, 
     퀘스트 문제 요구조건 등을 지칭
         - 해당 조건을 만족하는 코드를 캡쳐해 근거로 첨부
-'''python
+```python
  # 어벤파일 경로 지정
  file_name = '/content/Avengers.txt'
 
@@ -60,7 +60,7 @@ result = Counter(aven_list)
 print(f'2gram 최대빈도의 조합 : {result.most_common()[0]}')
 print('+'*100)
 print(f'2gram의 list : {result.most_common()}')
-'''
+```
           
     
 - [O]  **2. 전체 코드에서 가장 핵심적이거나 가장 복잡하고 이해하기 어려운 부분에 작성된 
