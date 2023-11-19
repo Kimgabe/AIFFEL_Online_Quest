@@ -51,7 +51,7 @@
    - 프로필 클래스 생성 팀 : 김승순, 강영현, 이선재
    - 하루일과(루틴) 클래스 생성 팀 : 이슬, 오우진, 한현종
    - 진행 작업 내역
-      - 전체 클래스 구조 설정(![공동 작업용 엑셀파일 공유](https://docs.google.com/spreadsheets/d/1IuqOQzyD3fWNC_9nZqND9q53pbf5zZPXJbMfx5ffCeI/edit?usp=sharing))
+      - 전체 클래스 구조 설정([공동 작업용 엑셀파일 공유](https://docs.google.com/spreadsheets/d/1IuqOQzyD3fWNC_9nZqND9q53pbf5zZPXJbMfx5ffCeI/edit?usp=sharing))
       - 프로필 항목 아이디어 회의
       - 프로필 입력 및 예외처리 부문 논의
       - 프로필명 별 메서드 작성 파트 분배
