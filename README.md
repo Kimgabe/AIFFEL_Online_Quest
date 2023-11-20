@@ -6,7 +6,9 @@ Tutorial for learning how to use GitHub and co-work with other developers
 
 ---
 
-# add a new content by Cherrymmu# AIFFEL_Quest_gabe
+# add a new content by Cherrymmu
+
+# AIFFEL_Quest_gabe
 Tutorial for learning how to use GitHub and co-work with other developers 
 
 - GitHub 메뉴얼 익히기의 일환
