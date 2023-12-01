@@ -11,5 +11,5 @@
 6. Reference
 
 **파일 가이드**
-- Main_Quest02.ipynb : 마감시간 내에 제출한 최초 파일입니다.
+- Main_Quest02.ipynb : 마감기한 내에 제출한 최초 파일입니다. (README.md와 Pokemon.csv 포함)
 - Main_Quest02_update.ipynb : 오류 수정하여 업데이트한 파일입니다.
