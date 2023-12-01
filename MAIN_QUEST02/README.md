@@ -9,3 +9,7 @@
 4. 모델 학습
 5. 회고
 6. Reference
+
+**파일 가이드**
+- Main_Quest02.ipynb : 마감시간 내에 제출한 최초 파일입니다.
+- Main_Quest02_update.ipynb : 오류 수정하여 업데이트한 파일입니다.
