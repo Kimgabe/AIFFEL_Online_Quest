@@ -24,9 +24,9 @@
           
 ```python
    for line in txt_file:
-    clean_line = re.sub(r"[^\uAC00-\uD7A30-9a-zA-Z\s]", "",line) #특수기호 제거
-    txt_data = clean_line.lower() #모든 문자를 소문자로 변환
-    SplitTxt = txt_data.split()  #N-gram 사용전 단어별로 나누기
+    clean_line = re.sub(r"[^\uAC00-\uD7A30-9a-zA-Z\s]", "",line) [[특수기호]] 제거
+    txt_data = clean_line.lower() [[모든]] 문자를 소문자로 변환
+    SplitTxt = txt_data.split()  [[N-gram]] 사용전 단어별로 나누기
 ```
 
 > 정규표현식을 사용한 텍스트 전처리에 대한 주석이 잘 달려있고, n-gram을 적용하는 부분도 명시되어 있음
@@ -44,11 +44,11 @@
 
 ```python
 for line in txt_file:
-    clean_line = re.sub(r"[^\uAC00-\uD7A30-9a-zA-Z\s]", "",line) #특수기호 제거
-    txt_data = clean_line.lower() #모든 문자를 소문자로 변환
-    SplitTxt = txt_data.split()  #N-gram 사용전 단어별로 나누기
+    clean_line = re.sub(r"[^\uAC00-\uD7A30-9a-zA-Z\s]", "",line) [[특수기호]] 제거
+    txt_data = clean_line.lower() [[모든]] 문자를 소문자로 변환
+    SplitTxt = txt_data.split()  [[N-gram]] 사용전 단어별로 나누기
 
-    #N-gram 만들기
+    [[N-gram]] 만들기
     for i in range(len(SplitTxt) -1 ):
       a= list((SplitTxt[i], SplitTxt[i + 1]))
       print(a)

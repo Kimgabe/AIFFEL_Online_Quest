@@ -47,13 +47,13 @@ def clean_text(inputString):
   # 연속된 공백을 하나의 공백으로 대체
   return re.sub(r'\s+', ' ', inputString)
 
-#print(clean_text(inputString))
+[[print]](clean_text(inputString))
 space_list = clean_text(inputString).split(' ')    # 공백 단위로 list 생성
-#print(space_list)
+[[print]](space_list)
 
 # 공백 단위로 생성한 list에서 2gram 뽑아내서 list in tuple로 만들기
 aven_list = [(space_list[i], space_list[i + 1]) for i in range(len(space_list) - 1)]
-#print(aven_list[:5])
+[[print]](aven_list[:5])
 
 from collections import Counter
 result = Counter(aven_list)

@@ -47,7 +47,7 @@
 
 ```python
 def reverse(text):
-  reverse_text = text[::-1] # [::-1]은 거꾸로 간격을 1로하는 슬라이싱
+  reverse_text = text[==-1] # [==-1]은 거꾸로 간격을 1로하는 슬라이싱
   print("뒤집힌 단어는 :",reverse_text)
 
   if text == reverse_text: # 내가 적은 text와 거꾸로 출력된 text의 인덱스와 문자열이 같을 경우
