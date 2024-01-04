@@ -1,1 +1,1 @@
-# AIFFEL_Online_Quest
+## AIFFEL AI STUDY
