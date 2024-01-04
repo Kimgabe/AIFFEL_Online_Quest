@@ -1,3 +1,7 @@
+# 💡 파일 용량이 너무 커서 깃허브에서 직접 확인이 어렵습니다.
+- pdf와 html을 첨부했습니다. 코드북(.ipynb)를 다운받아 로컬에서 vs code 등으로 보시는걸 권장드립니다.
+
+---
 # AIFFEL Campus Online 7th Code Peer Review Templete
 
 - 코더 : 김승순
