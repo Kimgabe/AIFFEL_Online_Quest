@@ -1,7 +1,7 @@
 # AIFFEL Campus Online 7th Code Peer Review Templete
 
 - 코더 : 한현종
-- 리뷰어 : 김승
+- 리뷰어 : 김승순
 
 
 
