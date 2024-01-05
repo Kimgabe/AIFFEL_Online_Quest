@@ -12,9 +12,13 @@
         - 해당 조건을 만족하는 부분의 코드 및 결과물을 근거로 첨부
 
 👉 요약이 된 모습을 확인할 수 있었다.
+
 - 추상적 요약
+  
   ![image](https://github.com/NeatyNut/AIFFEL_MAIN_QUEST-YH/assets/89675001/df02b6f3-2bdf-4e5c-9c2f-3460820546ec)
+
 - 추출적 요약
+  
   ![image](https://github.com/NeatyNut/AIFFEL_MAIN_QUEST-YH/assets/89675001/82340842-9cd8-4ac9-b996-551f5efd7f0e)
 
     
