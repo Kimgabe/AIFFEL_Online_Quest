@@ -1,1 +1,0 @@
-# Aiffel_DLThon_Jellyfish_Classification
