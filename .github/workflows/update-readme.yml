@@ -17,6 +17,9 @@ jobs:
         with:
           python-version: '3.8'
 
+      - name: Install dependencies
+        run: pip install requests
+
       - name: Update README
         run: python update_readme.py
 
