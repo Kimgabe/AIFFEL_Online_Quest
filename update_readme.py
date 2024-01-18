@@ -5,7 +5,7 @@ def get_folders(repo):
     url = f"https://api.github.com/repos/{repo}/contents/"
     response = requests.get(url)
     folders = [item for item in response.json() if item['type'] == 'dir']
-    return sorted(folders, key=lambda x: x['name'])
+    return sorted(folders, key=lambda x: x['name'])  # 퀘스트명을 파일명 순으로 정렬
 
 # README.md 파일을 업데이트하는 함수
 def update_readme(repo, folders):
@@ -18,7 +18,7 @@ def update_readme(repo, folders):
     new_content += "| 퀘스트명 | URL |\n"  # 표의 헤더 행 추가
     new_content += "| --- | --- |\n"  # 표의 헤더 행 아래 구분선 추가
 
-    for folder in folders:
+    for folder in sorted(folders, key=lambda x: x['name']):  # 퀘스트명을 파일명 순으로 정렬
         folder_name = folder['name']
         folder_url = folder['html_url']
         new_content += f"| {folder_name} | [Link]({folder_url}) |\n" # 각 폴더에 대한 행 추가
