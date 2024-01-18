@@ -1,11 +1,20 @@
 import requests
+import re
 
 # GitHub API를 통해 특정 저장소의 폴더 목록을 가져오는 함수
 def get_folders(repo):
     url = f"https://api.github.com/repos/{repo}/contents/"
     response = requests.get(url)
     folders = [item for item in response.json() if item['type'] == 'dir']
-    return sorted(folders, key=lambda x: (int(x['name'].split()[-1].split('.')[0]) if x['name'].split()[-1].split('.')[0].isdigit() else float('inf')))
+    return folders
+
+# 폴더 이름에서 숫자를 추출하는 함수
+def extract_number(folder_name):
+    # 폴더 이름에서 첫 번째 숫자 시퀀스를 찾습니다
+    match = re.search(r'\d+', folder_name)
+    if match:
+        return int(match.group())
+    return float('inf')  # 숫자가 없는 경우 매우 큰 수를 반환
 
 # README.md 파일을 업데이트하는 함수
 def update_readme(repo, folders):
@@ -18,7 +27,10 @@ def update_readme(repo, folders):
     new_content += "| 퀘스트명 | URL |\n"  # 표의 헤더 행 추가
     new_content += "| --- | --- |\n"  # 표의 헤더 행 아래 구분선 추가
 
-    for folder in sorted(folders, key=lambda x: (int(x['name'].split()[-1].split('.')[0]) if x['name'].split()[-1].split('.')[0].isdigit() else float('inf'))):
+    # 폴더를 숫자 순으로 정렬
+    sorted_folders = sorted(folders, key=lambda x: extract_number(x['name']))
+
+    for folder in sorted_folders:
         folder_name = folder['name']
         folder_url = folder['html_url']
         new_content += f"| {folder_name} | [Link]({folder_url}) |\n" # 각 폴더에 대한 행 추가
