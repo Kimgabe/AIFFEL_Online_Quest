@@ -18,7 +18,12 @@ def extract_number(folder_name):
 
 # README.md 파일을 업데이트하는 함수
 def update_readme(repo, folders, original_content):
-    # 새로운 테이블 생성
+    # "## 📑Quest List📑" 섹션과 그 이하 내용 제거
+    start_index = original_content.find("## 📑Quest List📑")
+    if start_index != -1:
+        original_content = original_content[:start_index]
+
+    # 새로운 "## 📑Quest List📑" 테이블 생성
     new_table = "## 📑Quest List📑\n\n"
     new_table += "| 퀘스트명 | URL |\n"
     new_table += "| --- | --- |\n"
@@ -29,16 +34,8 @@ def update_readme(repo, folders, original_content):
         folder_url = folder['html_url']
         new_table += f"| {folder_name} | [Link]({folder_url}) |\n"
 
-    # README.md 파일에서 기존 "## 📑Quest List📑" 섹션 찾기
-    start_index = original_content.find("## 📑Quest List📑")
-    end_index = original_content.find("\n\n", start_index + 1) if start_index != -1 else -1
-
-    # 기존 테이블이 있으면 교체, 없으면 추가
-    if start_index != -1 and end_index != -1:
-        updated_content = original_content[:start_index] + new_table + original_content[end_index:]
-    else:
-        updated_content = original_content + "\n\n" + new_table
-
+    # README.md 파일의 기존 내용 끝에 새로운 테이블 추가
+    updated_content = original_content + new_table
     return updated_content
 
 # GitHub 저장소와 폴더 목록을 설정
