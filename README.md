@@ -15,6 +15,8 @@
 
 ## 📑Quest List📑
 
+## 📑Quest List📑
+
 | 퀘스트명 | URL |
 | --- | --- |
 | 0. Github Basic | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/0.%20Github%20Basic) |
@@ -31,4 +33,3 @@
 | 11. [MainQuest_05] CNN&ResNet 으로 폐렴 분류기 만들고 성능 향상시키기 (CV_Final) | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/11.%20[MainQuest_05]%20CNN&ResNet%20%EC%9C%BC%EB%A1%9C%20%ED%8F%90%EB%A0%B4%20%EB%B6%84%EB%A5%98%EA%B8%B0%20%EB%A7%8C%EB%93%A4%EA%B3%A0%20%EC%84%B1%EB%8A%A5%20%ED%96%A5%EC%83%81%EC%8B%9C%ED%82%A4%EA%B8%B0%20(CV_Final)) |
 | 12. Quest05 (Exploration 노드) | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/12.%20Quest05%20(Exploration%20%EB%85%B8%EB%93%9C)) |
 | Pair_Programming_forked_origin_repo | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/Pair_Programming_forked_origin_repo) |
-| path | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/path) |
