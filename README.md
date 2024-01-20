@@ -19,8 +19,6 @@
 
 ## 📑Quest List📑
 
-## 📑Quest List📑
-
 | 퀘스트명 | URL |
 | --- | --- |
 | 0. Github Basic | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/0.%20Github%20Basic) |

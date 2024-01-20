@@ -18,7 +18,7 @@ def extract_number(folder_name):
 
 # README.md 파일을 업데이트하는 함수
 def update_readme(repo, folders, original_content):
-    new_table = "\n\n## 📑Quest List📑\n\n"
+    new_table = "## 📑Quest List📑\n\n"
     new_table += "| 퀘스트명 | URL |\n"
     new_table += "| --- | --- |\n"
 
@@ -33,11 +33,12 @@ def update_readme(repo, folders, original_content):
     if "## 📑Quest List📑" in original_content:
         # 기존 테이블이 있는 경우, 테이블 내용만 교체
         start_index = original_content.index("## 📑Quest List📑")
-        end_index = original_content.index("\n", start_index)
-        updated_content = original_content[:end_index] + new_table
+        end_index = original_content.find("\n\n", start_index + 1)
+        end_index = end_index if end_index != -1 else len(original_content)
+        updated_content = original_content[:start_index] + new_table + original_content[end_index:]
     else:
         # 기존 테이블이 없는 경우, 새 테이블 추가
-        updated_content = original_content + new_table
+        updated_content = original_content + "\n\n" + new_table
 
     return updated_content
 
