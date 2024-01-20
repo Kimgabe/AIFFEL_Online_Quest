@@ -18,22 +18,28 @@ def extract_number(folder_name):
 
 # README.md 파일을 업데이트하는 함수
 def update_readme(repo, folders, original_content):
-    new_content = "\n\n## 📑Quest List📑\n\n"
-    new_content += "| 퀘스트명 | URL |\n"
-    new_content += "| --- | --- |\n"
+    new_table = "\n\n## 📑Quest List📑\n\n"
+    new_table += "| 퀘스트명 | URL |\n"
+    new_table += "| --- | --- |\n"
 
     sorted_folders = sorted(folders, key=lambda x: extract_number(x['name']))
 
     for folder in sorted_folders:
         folder_name = folder['name']
         folder_url = folder['html_url']
-        new_content += f"| {folder_name} | [Link]({folder_url}) |\n"
+        new_table += f"| {folder_name} | [Link]({folder_url}) |\n"
 
-    # 변경된 부분만 추가
-    if original_content.endswith(new_content):
-        return original_content  # 변경 사항이 없으면 기존 내용 반환
+    # 기존 테이블과 새로운 테이블의 내용을 비교
+    if "## 📑Quest List📑" in original_content:
+        # 기존 테이블이 있는 경우, 테이블 내용만 교체
+        start_index = original_content.index("## 📑Quest List📑")
+        end_index = original_content.index("\n", start_index)
+        updated_content = original_content[:end_index] + new_table
     else:
-        return original_content + new_content  # 변경 사항이 있으면 추가
+        # 기존 테이블이 없는 경우, 새 테이블 추가
+        updated_content = original_content + new_table
+
+    return updated_content
 
 # GitHub 저장소와 폴더 목록을 설정
 repo = "Kimgabe/AIFFEL_Online_Quest"
