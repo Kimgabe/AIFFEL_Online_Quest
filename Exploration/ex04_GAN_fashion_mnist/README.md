@@ -1,6 +1,8 @@
 # 프로젝트 : CIFAR-10 이미지 생성하기
+- 파일 : project_GAN_fashion_mnist_CIFAR10.ipynb
+
 ## 개요
-FASHION-MNIST 데이터 생성용 DCGAN 모델구조를 이용해서 CIFAR-10 데이터를 생성하는 모델을 직접 만들어 봅니다.   
+gan_fashion_mnist.ipynb 에서 만든 FASHION-MNIST 데이터 생성용 DCGAN 모델구조를 이용해서 CIFAR-10 데이터를 생성하는 모델을 직접 만들어 봅니다.   
 모델 구현 및 학습의 전과정의 흐름은 거의 비슷하겠지만, 아래와 같이 몇 가지 달라지는 점이 있습니다.   
 
 - 이미지 데이터의 shape가 (28, 28, 1)에서 (32, 32, 3)으로 변경됩니다. 생성자, 판별자 모델의 입출력 shape 및 모델 구조에 영향이 있습니다.
