@@ -1,4 +1,4 @@
-![image](https://github.com/Kimgabe/AIFFEL_MAIN_QUEST_claireyy01/assets/74717033/263f8c69-962b-4ea5-8a34-72084c385544)# 프로젝트 : CIFAR-10 이미지 생성하기
+# 프로젝트 : CIFAR-10 이미지 생성하기
 - 파일 : project_GAN_fashion_mnist_CIFAR10.ipynb
 
 ## 개요
