@@ -21,7 +21,6 @@
 | --- | --- |
 | 0. Github Basic | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/0.%20Github%20Basic) |
 | 1. [Pair_programming] Quest01 (Python_palindrome) | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/1.%20[Pair_programming]%20Quest01%20(Python_palindrome)) |
-| AIFFEL_MAIN_QUEST_claireyy01 | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/AIFFEL_MAIN_QUEST_claireyy01) |
 | 2. [Pair_programming] Quest02 (Python_generator) | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/2.%20[Pair_programming]%20Quest02%20(Python_generator)) |
 | 3. [Pair_programming] Quest03 (N-gram) | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/3.%20[Pair_programming]%20Quest03%20(N-gram)) |
 | 4. [Pair_programming] Quest04 (거북이 미로찾기) | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/4.%20[Pair_programming]%20Quest04%20(%EA%B1%B0%EB%B6%81%EC%9D%B4%20%EB%AF%B8%EB%A1%9C%EC%B0%BE%EA%B8%B0)) |
