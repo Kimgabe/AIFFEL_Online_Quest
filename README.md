@@ -36,5 +36,4 @@
 | 14. [Exploration_03] 핸드폰 인물사진 기능 구현하기(feat. sementic segmentation) | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/14.%20[Exploration_03]%20%ED%95%B8%EB%93%9C%ED%8F%B0%20%EC%9D%B8%EB%AC%BC%EC%82%AC%EC%A7%84%20%EA%B8%B0%EB%8A%A5%20%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0(feat.%20sementic%20segmentation)) |
 | 15. [Exploration_04] DCGAN으로 CIFAR-10 이미지 생성하기 | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/15.%20[Exploration_04]%20DCGAN%EC%9C%BC%EB%A1%9C%20CIFAR-10%20%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0) |
 | 16. [Exploration_05]_한국어로_Transformer_기반_챗봇만들기🤖 | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/16.%20[Exploration_05]_%ED%95%9C%EA%B5%AD%EC%96%B4%EB%A1%9C_Transformer_%EA%B8%B0%EB%B0%98_%EC%B1%97%EB%B4%87%EB%A7%8C%EB%93%A4%EA%B8%B0%F0%9F%A4%96) |
-| =Aiffel_Project_smj | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/=Aiffel_Project_smj) |
 | Pair_Programming_forked_origin_repo | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/Pair_Programming_forked_origin_repo) |
