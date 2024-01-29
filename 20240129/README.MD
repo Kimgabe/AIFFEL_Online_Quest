@@ -12,9 +12,12 @@
     퀘스트 문제 요구조건 등을 지칭
         - 해당 조건을 만족하는 부분의 코드 및 결과물을 근거로 첨부
 
+<ControlNet>
 ![image](https://github.com/Kimgabe/AIFFEL_Online_Quest/assets/74717033/9c34eb22-3f36-4a4c-bd90-a4190e8ec725)
 
-    
+<MLOps>
+![image](https://github.com/Kimgabe/AIFFEL_Online_Quest/assets/74717033/0d6a4566-3257-4673-bdde-c22c72b384d4)
+
 - [✔️]  **2. 전체 코드에서 가장 핵심적이거나 가장 복잡하고 이해하기 어려운 부분에 작성된 
 주석 또는 doc string을 보고 해당 코드가 잘 이해되었나요?**
     - 해당 코드 블럭에 doc string/annotation이 달려 있는지 확인
@@ -22,7 +25,11 @@
     - 주석을 보고 코드 이해가 잘 되었는지 확인
         - 잘 작성되었다고 생각되는 부분을 근거로 첨부합니다.
 
+<ControlNet>
 ![image](https://github.com/Kimgabe/AIFFEL_Online_Quest/assets/74717033/208b3714-f01b-4c78-9bc6-a4815b32d3b7)
+
+<MLOps>
+![image](https://github.com/Kimgabe/AIFFEL_Online_Quest/assets/74717033/60890976-f1f3-43f5-af2c-c27b371efd2c)
 
 - [✔️]  **3. 에러가 난 부분을 디버깅하여 문제를 “해결한 기록을 남겼거나” 
 ”새로운 시도 또는 추가 실험을 수행”해봤나요?**
@@ -31,7 +38,9 @@
     실험이 기록되어 있는지 확인
         - 잘 작성되었다고 생각되는 부분을 근거로 첨부합니다.
 
+<ControlNet>
 ![image](https://github.com/Kimgabe/AIFFEL_Online_Quest/assets/74717033/b71749ba-5898-4b2d-8ade-219e4b57aa2f)
+
 
 - [✔️]  **4. 회고를 잘 작성했나요?** (2023.11.07 - 생략)
     - 주어진 문제를 해결하는 완성된 코드 내지 프로젝트 결과물에 대해
@@ -46,4 +55,9 @@
     - 코드 중복을 최소화하고 범용적으로 사용할 수 있도록 모듈화(함수화) 했는지
         - 잘 작성되었다고 생각되는 부분을 근거로 첨부합니다.
 
+<ControlNet>
 ![image](https://github.com/Kimgabe/AIFFEL_Online_Quest/assets/74717033/e1f94b58-a5ac-4e9f-b1aa-275bb4fd17ab)
+
+
+<MLOps>
+![image](https://github.com/Kimgabe/AIFFEL_Online_Quest/assets/74717033/96cc6c8b-0589-4b53-a3c1-c360429db6b0)
