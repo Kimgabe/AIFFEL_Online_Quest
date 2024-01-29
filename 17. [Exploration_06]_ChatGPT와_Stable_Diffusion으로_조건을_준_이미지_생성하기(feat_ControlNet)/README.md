@@ -9,11 +9,11 @@
     퀘스트 문제 요구조건 등을 지칭
     - 해당 조건을 만족하는 부분의 코드 및 결과물을 근거로 첨부
     - 피드백: 루브릭에 제시된대로 정확하게 윤관석 및 자세 검출, Canny 알고리즘을 사용한 윤곽선 검출 전처리기와 Openpose 전처리기를 같이 사용하여 이미지를 생성
-      - 윤곽선 검출 결과 시각화
+    - 윤곽선 검출 결과 시각화
       ![image](https://github.com/K-Bbang/kss/assets/149548972/b2c47343-451c-4504-9a53-59ef9a1a7226)
-      - 자세 검출 시각화
+    - 자세 검출 시각화
       ![image](https://github.com/K-Bbang/kss/assets/149548972/45ea5a97-420f-4c5f-bb80-b7432d84cef4)
-      - 두 개의 전처리기를 함께 사용하기 위해 작성한 코드
+    - 두 개의 전처리기를 함께 사용하기 위해 작성한 코드
       ![image](https://github.com/K-Bbang/kss/assets/149548972/46c5e703-894a-4af3-a6b6-adadd91cdf20)
 
 
