@@ -1,32 +1,40 @@
+# README를 업데이트하는 GitHub Actions 워크플로우
 name: Update README
 
+# push 이벤트가 발생하면 아래의 워크플로우를 실행
 on:
   push:
     branches:
       - main
 
+# GitHub Actions 워크플로우 정의
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
+      # 코드를 체크아웃하는 스텝
       - name: Checkout
         uses: actions/checkout@v2
 
+      # Python 3.8 환경 설정 스텝
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
           python-version: '3.8'
 
+      # 필요한 의존성 설치 스텝
       - name: Install dependencies
         run: pip install requests
 
+      # README를 업데이트하는 Python 스크립트 실행 스텝
       - name: Update README
         run: python update_readme.py
 
-      - name: Commit and Push
+      # 변경 사항이 있을 때만 커밋하고 푸시하는 스텝
+      - name: Commit and Push (with empty commit if necessary)
         run: |
           git config --global user.name 'Your Name'
           git config --global user.email 'your-email@example.com'
           git add README.md
-          git commit -m "Update README"
+          git diff-index --quiet HEAD || git commit -m "empty commit - noting to change"
           git push
