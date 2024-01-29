@@ -13,9 +13,11 @@
         - 해당 조건을 만족하는 부분의 코드 및 결과물을 근거로 첨부
 
 <ControlNet>
+
 ![image](https://github.com/Kimgabe/AIFFEL_Online_Quest/assets/74717033/9c34eb22-3f36-4a4c-bd90-a4190e8ec725)
 
 <MLOps>
+
 ![image](https://github.com/Kimgabe/AIFFEL_Online_Quest/assets/74717033/0d6a4566-3257-4673-bdde-c22c72b384d4)
 
 - [✔️]  **2. 전체 코드에서 가장 핵심적이거나 가장 복잡하고 이해하기 어려운 부분에 작성된 
@@ -26,9 +28,11 @@
         - 잘 작성되었다고 생각되는 부분을 근거로 첨부합니다.
 
 <ControlNet>
+
 ![image](https://github.com/Kimgabe/AIFFEL_Online_Quest/assets/74717033/208b3714-f01b-4c78-9bc6-a4815b32d3b7)
 
 <MLOps>
+
 ![image](https://github.com/Kimgabe/AIFFEL_Online_Quest/assets/74717033/60890976-f1f3-43f5-af2c-c27b371efd2c)
 
 - [✔️]  **3. 에러가 난 부분을 디버깅하여 문제를 “해결한 기록을 남겼거나” 
@@ -39,6 +43,7 @@
         - 잘 작성되었다고 생각되는 부분을 근거로 첨부합니다.
 
 <ControlNet>
+
 ![image](https://github.com/Kimgabe/AIFFEL_Online_Quest/assets/74717033/b71749ba-5898-4b2d-8ade-219e4b57aa2f)
 
 
@@ -56,8 +61,10 @@
         - 잘 작성되었다고 생각되는 부분을 근거로 첨부합니다.
 
 <ControlNet>
+
 ![image](https://github.com/Kimgabe/AIFFEL_Online_Quest/assets/74717033/e1f94b58-a5ac-4e9f-b1aa-275bb4fd17ab)
 
 
 <MLOps>
+
 ![image](https://github.com/Kimgabe/AIFFEL_Online_Quest/assets/74717033/96cc6c8b-0589-4b53-a3c1-c360429db6b0)
