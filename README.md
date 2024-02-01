@@ -20,10 +20,10 @@
 | 퀘스트명 | URL |
 | --- | --- |
 | 0. Github Basic | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/0.%20Github%20Basic) |
-| 1. [Pair_programming] Quest01 (Python_palindrome) | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/1.%20[Pair_programming]%20Quest01%20(Python_palindrome)) |
-| 2. [Pair_programming] Quest02 (Python_generator) | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/2.%20[Pair_programming]%20Quest02%20(Python_generator)) |
-| 3. [Pair_programming] Quest03 (N-gram) | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/3.%20[Pair_programming]%20Quest03%20(N-gram)) |
-| 4. [Pair_programming] Quest04 (거북이 미로찾기) | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/4.%20[Pair_programming]%20Quest04%20(%EA%B1%B0%EB%B6%81%EC%9D%B4%20%EB%AF%B8%EB%A1%9C%EC%B0%BE%EA%B8%B0)) |
+| 1. [Pair_programming_Python] Quest01 (Python_palindrome) | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/1.%20[Pair_programming_Python]%20Quest01%20(Python_palindrome)) |
+| 2. [Pair_programming_Python] Quest02 (Python_generator) | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/2.%20[Pair_programming_Python]%20Quest02%20(Python_generator)) |
+| 3. [Pair_programming_Python] Quest03 (N-gram) | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/3.%20[Pair_programming_Python]%20Quest03%20(N-gram)) |
+| 4. [Pair_programming_Python] Quest04 (거북이 미로찾기) | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/4.%20[Pair_programming_Python]%20Quest04%20(%EA%B1%B0%EB%B6%81%EC%9D%B4%20%EB%AF%B8%EB%A1%9C%EC%B0%BE%EA%B8%B0)) |
 | 5. [Node_Quest] 키오스크를 Class로 구현하기 | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/5.%20[Node_Quest]%20%ED%82%A4%EC%98%A4%EC%8A%A4%ED%81%AC%EB%A5%BC%20Class%EB%A1%9C%20%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0) |
 | 6. [Sub-TeamPJ] 사람의 하루일과를 표현하는 클래스(feat. chatGPT버전 추가) | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/6.%20[Sub-TeamPJ]%20%EC%82%AC%EB%9E%8C%EC%9D%98%20%ED%95%98%EB%A3%A8%EC%9D%BC%EA%B3%BC%EB%A5%BC%20%ED%91%9C%ED%98%84%ED%95%98%EB%8A%94%20%ED%81%B4%EB%9E%98%EC%8A%A4(feat.%20chatGPT%EB%B2%84%EC%A0%84%20%EC%B6%94%EA%B0%80)) |
 | 7. [MainQuest_01] 은행계좌관리 & 학습관리시스템 클래스로 구현하기 (Python_Final) | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/7.%20[MainQuest_01]%20%EC%9D%80%ED%96%89%EA%B3%84%EC%A2%8C%EA%B4%80%EB%A6%AC%20&%20%ED%95%99%EC%8A%B5%EA%B4%80%EB%A6%AC%EC%8B%9C%EC%8A%A4%ED%85%9C%20%ED%81%B4%EB%9E%98%EC%8A%A4%EB%A1%9C%20%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0%20(Python_Final)) |
@@ -38,5 +38,5 @@
 | 16. [Exploration_05]_한국어로_Transformer_기반_챗봇만들기🤖 | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/16.%20[Exploration_05]_%ED%95%9C%EA%B5%AD%EC%96%B4%EB%A1%9C_Transformer_%EA%B8%B0%EB%B0%98_%EC%B1%97%EB%B4%87%EB%A7%8C%EB%93%A4%EA%B8%B0%F0%9F%A4%96) |
 | 17. [Exploration_06]_ChatGPT와_Stable_Diffusion으로_조건을_준_이미지_생성하기(feat_ControlNet) | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/17.%20[Exploration_06]_ChatGPT%EC%99%80_Stable_Diffusion%EC%9C%BC%EB%A1%9C_%EC%A1%B0%EA%B1%B4%EC%9D%84_%EC%A4%80_%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0(feat_ControlNet)) |
 | 18. [Exploration 07] Data Centric AI + MLOps로 Multi-Image Classifier 만들기(feat. CIFAR10) | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/18.%20[Exploration%2007]%20Data%20Centric%20AI%20%2B%20MLOps%EB%A1%9C%20Multi-Image%20Classifier%20%EB%A7%8C%EB%93%A4%EA%B8%B0(feat.%20CIFAR10)) |
-| 19. [Pair_programming]  Quest05 (Flutter_PomodoroTimer 만들기) | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/19.%20[Pair_programming]%20%20Quest05%20(Flutter_PomodoroTimer%20%EB%A7%8C%EB%93%A4%EA%B8%B0)) |
+| 19. [Pair_programming_Flutter] Quest01 (PomodoroTimer 만들기) | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/19.%20[Pair_programming_Flutter]%20Quest01%20(PomodoroTimer%20%EB%A7%8C%EB%93%A4%EA%B8%B0)) |
 | Pair_Programming_forked_origin_repo | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/Pair_Programming_forked_origin_repo) |
