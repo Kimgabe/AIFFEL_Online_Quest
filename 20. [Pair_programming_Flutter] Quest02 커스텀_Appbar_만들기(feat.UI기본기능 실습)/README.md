@@ -40,6 +40,8 @@
 ## 결과 이미지
 ![image](https://github.com/Kimgabe/AIFFEL_Online_Quest/assets/74717033/15f0dac5-4264-413f-b732-4ef9b3efbae6)
 
+### update ver.추가
+![image](https://github.com/Kimgabe/AIFFEL_Online_Quest/assets/74717033/187c8be4-2acc-4812-9e32-1cb56650562c)****
 
 # 참고 링크 및 코드 개선
 ```
