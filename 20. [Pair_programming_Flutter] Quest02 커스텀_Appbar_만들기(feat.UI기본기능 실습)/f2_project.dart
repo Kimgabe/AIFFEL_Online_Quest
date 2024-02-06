@@ -26,8 +26,7 @@ class MyApp extends StatelessWidget {
         ),
         body: Column(
           // Column을 사용하여 세로로 위젯을 배치
-          mainAxisAlignment:
-          MainAxisAlignment.center, // Column의 세로 정렬을 중앙으로 설정
+          mainAxisAlignment: MainAxisAlignment.center, // Column의 세로 정렬을 중앙으로 설정
           children: [
             // Column의 자식으로 아이콘과 텍스트를 추가
             SizedBox(height: 48), // AppBar와 버튼 사이의 공간을 추가
@@ -69,8 +68,7 @@ class MyApp extends StatelessWidget {
                       height: 300.0 - index * 60.0, // 컨테이너의 높이를 설정
                       decoration: BoxDecoration(
                         // 컨테이너의 장식을 설정
-                        color: Colors
-                            .indigo[100 * (index + 1)], // 컨테이너의 색상을 설정
+                        color: Colors.indigo[100 * (index + 1)], // 컨테이너의 색상을 설정
                         border: Border.all(
                           // 컨테이너의 테두리를 설정
                           color: Colors.indigo[900]!, // 테두리의 색상을 설정
@@ -114,4 +112,4 @@ TRY
 - 구조를 좀 더 자세하게 확실히 알기 위해서 책을 좀 더 읽어봐야겠다. 그리고 코드를 열심히 필사해봐야겠다. 
 
 
-*//
+*/
