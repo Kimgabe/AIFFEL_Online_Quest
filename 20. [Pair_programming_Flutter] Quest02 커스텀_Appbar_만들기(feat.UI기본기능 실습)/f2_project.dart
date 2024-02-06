@@ -1,78 +1,70 @@
-import 'package:flutter/material.dart'; // Material 라이브러리를 임포트
+import 'package:flutter/material.dart'; // Material 라이브러리를 임포트합니다.
 
 void main() {
-  // 애플리케이션의 시작점
-  runApp(MyApp()); // MyApp 위젯을 실행
+  runApp(MyApp()); // MyApp 위젯을 실행합니다.
 }
 
 class MyApp extends StatelessWidget {
-  // StatelessWidget을 상속받는 MyApp 클래스를 정의
-  @override // 상속받은 메서드를 재정
+  @override
   Widget build(BuildContext context) {
-    // 빌드 메서드를 재정
     return MaterialApp(
-      // MaterialApp을 반환
       home: Scaffold(
-        // Scaffold를 반환
         appBar: AppBar(
-          // AppBar를 설정
-          backgroundColor: Colors.indigo, // AppBar 배경색을 인디고색으로 설정
+          backgroundColor: Colors.indigo, // AppBar 배경색을 인디고색으로 설정합니다.
           title: Text('플러터 앱 만들기'), // AppBar 중앙 텍스트
-          leading: Icon(
-            // AppBar 좌측 상단 아이콘을 설정
-            Icons.favorite, // 아이콘을 하트 모양으로 설정
-            color: Colors.white, // 아이콘 색상을 흰색으로 설정
+          leading: ElevatedButton(
+            onPressed: () {
+              print("하트"); // 버튼이 눌렸을 때 콘솔에 "하트" 출력
+            },
+            style: ElevatedButton.styleFrom(
+              shape: CircleBorder(), // 원형 버튼 모양을 설정합니다.
+              padding: EdgeInsets.all(10), // 패딩을 설정합니다.
+              primary: Colors.indigo, // 버튼 배경색을 인디고색으로 설정합니다.
+            ),
+            child: Icon(
+              Icons.favorite, // 아이콘을 하트 모양으로 설정합니다.
+              color: Colors.white, // 아이콘 색상을 흰색으로 설정합니다.
+            ),
           ),
         ),
         body: Column(
-          // Column을 사용하여 세로로 위젯을 배치
-          mainAxisAlignment: MainAxisAlignment.center, // Column의 세로 정렬을 중앙으로 설정
+          mainAxisAlignment:
+              MainAxisAlignment.center, // Column의 세로 정렬을 중앙으로 설정합니다.
           children: [
-            // Column의 자식으로 아이콘과 텍스트를 추가
-            SizedBox(height: 48), // AppBar와 버튼 사이의 공간을 추가
+            SizedBox(height: 48), // AppBar와 버튼 사이의 공간을 추가합니다.
             ElevatedButton(
-              // 버튼을 생성
               onPressed: () {
-                // 버튼이 눌렸을 때 실행될 콜백 함수를 정의
-                print("버튼이 눌렸습니다"); // 버튼 클릭 시 콘솔에 메시지 출력
-              }, // 버튼이 눌렸을 때 실행될 콜백 함수를 설정
+                print("버튼이 눌렸습니다"); // 버튼 클릭 시 콘솔에 메시지 출력합니다.
+              },
               child: Text(
                 "Text",
                 style: TextStyle(
-                  fontSize: 32, // 텍스트 사이즈를 32로 설정하여 크게 만들기
+                  fontSize: 32, // 텍스트 사이즈를 32로 설정하여 크게 만듭니다.
                 ),
-              ), // 버튼에 표시될 텍스트
+              ),
               style: ElevatedButton.styleFrom(
-                // 버튼의 스타일을 설정합니다.
-                fixedSize: Size(200, 100), // 버튼의 가로 200, 세로 100 사이즈로 설정
+                fixedSize: Size(200, 100), // 버튼의 가로 200, 세로 100 사이즈로 설정합니다.
                 shape: RoundedRectangleBorder(
-                  // 버튼의 모양을 직사각형으로 설정
                   borderRadius: BorderRadius.circular(
-                      0), // 모서리 둥글기를 0으로 설정해 모서리가 둥글지 않게 설정
+                      0), // 모서리 둥글기를 0으로 설정해 모서리가 둥글지 않게 설정합니다.
                 ),
               ),
             ),
             Expanded(
-              // Column의 나머지 공간을 차지하도록 설정
               child: Align(
-                // Align을 사용하여 자식 위젯을 정렬
-                alignment: FractionalOffset.center, // 자식 위젯을 중앙으로 정렬
+                alignment: FractionalOffset.center, // 자식 위젯을 중앙으로 정렬합니다.
                 child: Stack(
-                  // Stack을 사용하여 위젯을 겹쳐서 배치
-                  alignment: Alignment.topLeft, // Stack의 자식 위젯들을 왼쪽 상단으로 정렬
+                  alignment: Alignment.topLeft, // Stack의 자식 위젯들을 왼쪽 상단으로 정렬합니다.
                   children: List.generate(5, (index) {
-                    // 5개의 컨테이너를 생성
                     return Container(
-                      // 컨테이너를 생성합니다.
-                      width: 300.0 - index * 60.0, // 컨테이너의 너비를 설정
-                      height: 300.0 - index * 60.0, // 컨테이너의 높이를 설정
+                      width: 300.0 - index * 60.0, // 컨테이너의 너비를 설정합니다.
+                      height: 300.0 - index * 60.0, // 컨테이너의 높이를 설정합니다.
                       decoration: BoxDecoration(
-                        // 컨테이너의 장식을 설정
-                        color: Colors.indigo[100 * (index + 1)], // 컨테이너의 색상을 설정
+                        color: Colors
+                            .indigo[100 * (index + 1)], // 컨테이너의 색상을 설정합니다.
                         border: Border.all(
-                          // 컨테이너의 테두리를 설정
-                          color: Colors.indigo[900]!, // 테두리의 색상을 설정
-                          width: 3, // 테두리의 두께를 설정
+                          color: Colors.indigo[900]!, // 테두리의 색상을 설정합니다.
+                          width: 3, // 테두리의 두께를 설정합니다.
                         ),
                       ),
                     );
@@ -86,6 +78,7 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
 
 
 
