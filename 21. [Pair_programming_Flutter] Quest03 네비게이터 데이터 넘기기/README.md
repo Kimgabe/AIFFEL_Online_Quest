@@ -45,7 +45,7 @@
 ![upgraded_result](https://github.com/Kimgabe/AIFFEL_Online_Quest/assets/74717033/9420d124-3dfc-46ff-9407-23856c909153)
 
 # 참고 링크 및 코드 개선
-![[Flutter] url_launcher를 사용하여 브라우저 열기](https://deku.posstree.com/ko/flutter/url_launcher/#google_vignette)
+[[Flutter] url_launcher를 사용하여 브라우저 열기](https://deku.posstree.com/ko/flutter/url_launcher/#google_vignette)
 ```
 # 코드 리뷰 시 참고한 링크가 있다면 링크와 간략한 설명을 첨부합니다.
 # 코드 리뷰를 통해 개선한 코드가 있다면 코드와 간략한 설명을 첨부합니다.
