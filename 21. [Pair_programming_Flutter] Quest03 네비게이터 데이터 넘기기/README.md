@@ -41,7 +41,7 @@
 ![basic_result](https://github.com/Kimgabe/AIFFEL_Online_Quest/assets/74717033/24daeb51-4316-44aa-b5c6-92bdc4575ade)
 
 
-### update ver.추가 ()
+### update ver.추가 (문구를 작성하고 해당 문구에 web link를 연결하는 기능 추가)
 ![upgraded_result](https://github.com/Kimgabe/AIFFEL_Online_Quest/assets/74717033/9420d124-3dfc-46ff-9407-23856c909153)
 
 # 참고 링크 및 코드 개선
