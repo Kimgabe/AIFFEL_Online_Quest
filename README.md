@@ -41,5 +41,6 @@
 | 19. [Pair_programming_Flutter] Quest01 PomodoroTimer 만들기 (feat.dart basic) | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/19.%20[Pair_programming_Flutter]%20Quest01%20PomodoroTimer%20%EB%A7%8C%EB%93%A4%EA%B8%B0%20(feat.dart%20basic)) |
 | 20. [Pair_programming_Flutter] Quest02 커스텀_Appbar_만들기 (feat.UI기본기능 실습) | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/20.%20[Pair_programming_Flutter]%20Quest02%20%EC%BB%A4%EC%8A%A4%ED%85%80_Appbar_%EB%A7%8C%EB%93%A4%EA%B8%B0%20(feat.UI%EA%B8%B0%EB%B3%B8%EA%B8%B0%EB%8A%A5%20%EC%8B%A4%EC%8A%B5)) |
 | 21. [Pair_programming_Flutter] Quest03 네비게이터 데이터 넘기기 | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/21.%20[Pair_programming_Flutter]%20Quest03%20%EB%84%A4%EB%B9%84%EA%B2%8C%EC%9D%B4%ED%84%B0%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%84%98%EA%B8%B0%EA%B8%B0) |
+| 23. [MainQuest_06] 나만의 AI앱을 플러터로 구현하기(feat.fastAPI) | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/23.%20[MainQuest_06]%20%EB%82%98%EB%A7%8C%EC%9D%98%20AI%EC%95%B1%EC%9D%84%20%ED%94%8C%EB%9F%AC%ED%84%B0%EB%A1%9C%20%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0(feat.fastAPI)) |
 | Pair_Programming_forked_origin_repo | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/Pair_Programming_forked_origin_repo) |
 | app_test | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/app_test) |
