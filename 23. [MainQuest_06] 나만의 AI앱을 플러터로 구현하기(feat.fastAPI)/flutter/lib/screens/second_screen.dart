@@ -1,3 +1,8 @@
+import 'dart:convert'; // JSON 파싱을 위한 라이브러리 추가
+
+import 'package:flutter/material.dart'; // Material 디자인을 위한 라이브러리 추가
+import 'package:http/http.dart' as http;
+
 class SecondScreen extends StatefulWidget {
   // SecondScreen 위젯 정의
   @override
