@@ -6,7 +6,7 @@
 <details>
   <summary>앱 기획 draft</summary>
   <div markdown="1">
-    ![앱 기획 draft](example/app_draft.jpg)
+    ![앱 기획 draft](./example/app_draft.jpg)
   </div>
 </details>
 
