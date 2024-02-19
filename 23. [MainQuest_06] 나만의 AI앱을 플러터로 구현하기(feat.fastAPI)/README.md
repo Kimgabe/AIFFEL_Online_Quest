@@ -3,6 +3,13 @@
 - 이를 위해 앱의 구성을 기획하고, 기획한 내용대로 Flutter를 사용해 앱을 구현합니다.
 - (optional) 그리고, 가능하다면 fastAPI를 통해 구상한 기능을 앱과 연동합니다.
 
+<details>
+  <summary>앱 기획 draft</summary>
+  <div markdown="1">
+    ![앱 기획 draft](example/app_draft.jpg)
+  </div>
+</details>
+
 ---
 
 # CIC OOTD 앱 설명 및 작동과정 가이드
@@ -16,6 +23,7 @@
 
 - 현재 날씨 정보에 기반한 옷차림 추천
 - 온도별 옷차림 시각화 (차후 구현 예정, 현재는 사전에 stable diffusion으로 생성된 이미지를 날씨정보에 맵핑하여 사용)
+- 
 
 ## 👉 앱 구동 이미지 예시
 ![CIC OOTD 예시](./examples/CIC_OOTD_examples.png)
