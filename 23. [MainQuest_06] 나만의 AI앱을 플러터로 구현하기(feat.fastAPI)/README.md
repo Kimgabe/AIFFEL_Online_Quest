@@ -3,13 +3,6 @@
 - 이를 위해 앱의 구성을 기획하고, 기획한 내용대로 Flutter를 사용해 앱을 구현합니다.
 - (optional) 그리고, 가능하다면 fastAPI를 통해 구상한 기능을 앱과 연동합니다.
 
-<details>
-  <summary>앱 기획 draft</summary>
-  <div markdown="1">
-    ![앱 기획 draft](./example/app_draft.jpg)
-  </div>
-</details>
-
 ---
 
 # CIC OOTD 앱 설명 및 작동과정 가이드
