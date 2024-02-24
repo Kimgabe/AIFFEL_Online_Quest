@@ -43,4 +43,3 @@
 | 21. [Pair_programming_Flutter] Quest03 네비게이터 데이터 넘기기 | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/21.%20[Pair_programming_Flutter]%20Quest03%20%EB%84%A4%EB%B9%84%EA%B2%8C%EC%9D%B4%ED%84%B0%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%84%98%EA%B8%B0%EA%B8%B0) |
 | 23. [MainQuest_06] 나만의 AI앱을 플러터로 구현하기(feat.fastAPI) | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/23.%20[MainQuest_06]%20%EB%82%98%EB%A7%8C%EC%9D%98%20AI%EC%95%B1%EC%9D%84%20%ED%94%8C%EB%9F%AC%ED%84%B0%EB%A1%9C%20%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0(feat.fastAPI)) |
 | Pair_Programming_forked_origin_repo | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/Pair_Programming_forked_origin_repo) |
-| app_test | [Link](https://github.com/Kimgabe/AIFFEL_Online_Quest/tree/main/app_test) |
